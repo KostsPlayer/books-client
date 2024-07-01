@@ -49,7 +49,7 @@ function Login() {
         <span
           className="material-symbols-outlined"
           onClick={() => {
-            navigate("/");
+            navigate("/books-client");
           }}
         >
           arrow_back

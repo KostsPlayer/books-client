@@ -51,7 +51,7 @@ function SignUp() {
         <span
           className="material-symbols-outlined"
           onClick={() => {
-            redirect("/");
+            redirect("/books-client");
           }}
         >
           arrow_back
@@ -86,7 +86,7 @@ function SignUp() {
           <div className="form-link">
             <span>
               Have an account?{" "}
-              <Link className="to-link" to={"/"}>
+              <Link className="to-link" to={"/books-client"}>
                 Login{" "}
               </Link>
             </span>
